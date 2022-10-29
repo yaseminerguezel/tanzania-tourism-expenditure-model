@@ -1,11 +1,27 @@
-# Template Repo for ML Project
+# Tanzania Tourism Prediction: ML Project
+The main goal of this project was about to create a ML model to predict how much money a tourist will spend when visiting Tanzania.
 
-This template repo will give you a good starting point for your second project. Besides the files used for creating a virtual environment, you will find a simple example of how to build a simple model in a python script. This is maybe the simplest way to do it. We train a simple model in the jupyter notebook, where we select only some features and do minimal cleaning. The output is then stored in simple python scripts.
+The data used for this is: [data](https://zindi.africa/competitions/tanzania-tourism-prediction/data).
 
-The data used for this is: [coffee quality dataset](https://github.com/jldbc/coffee-quality-database).
+Hypothesis: Tourists are likely to spent more money depending on their age.
 
----
-## Requirements and Environment
+To impove our hypothesis we trained a regression model to predict the total cost a tourist can spend.
+Contribution features are:
+- In what age group is a tourist
+- The country a tourist coming from
+- Which packages a tourist have
+- Number of tourists
+
+## Exploratory Data Analysis (EDA)
+
+## Data Cleaning and Feature Engineering
+## Model Building and Evaluation
+
+# Requirements and Environment
+
+Requirements:
+
+- pyenv with Python: 3.9.8
 
 Requirements:
 - pyenv with Python: 3.9.8
